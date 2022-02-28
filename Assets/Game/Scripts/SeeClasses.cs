@@ -5,10 +5,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using static BaseCharacterClass;
+using static GameClasses;
 
-public class SeeClasses : MonoBehaviour
+public class SeeClasses : GameClasses
 {
-    private BaseCharacterClass class1 = new FighterClass();
+    private BaseCharacterClass class1 = new FigherClass();
     // Start is called before the first frame update
     void Start()
     {
