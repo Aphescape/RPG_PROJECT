@@ -7,8 +7,8 @@ using UnityEngine;
 
 public class BaseCharacterClass
 {
-    private String characterClassName;
-    private String characterClassDescription;
+    public String characterClassName;
+    public String characterClassDescription;
     
     //stats
     public int str, dex, con, wis, inte, chari;

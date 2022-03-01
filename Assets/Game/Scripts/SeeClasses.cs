@@ -10,7 +10,8 @@ using static GameClasses;
 
 public class SeeClasses : GameClasses
 {
-    private BaseCharacterClass class1 = new FigherClass();
+    public BaseCharacterClass class1 = new GameClasses.BarbarianClass();
+    //private BaseCharacterClass class2 = new GameClasses.DruidClass();
     // Start is called before the first frame update
     void Start()
     {

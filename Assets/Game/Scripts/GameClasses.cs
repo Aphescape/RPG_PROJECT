@@ -1,8 +1,12 @@
+using System;
+using System.Globalization;
+using System.IO;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static BaseCharacterClass;
 
-public class FigherClass : BaseCharacterClass
+public class GameClasses : BaseCharacterClass
 {
     public void BarbarianClass(){
         CharacterClassName = "Barbarian";
